@@ -7,7 +7,7 @@
 	require('../lib/Parsedown.php');
 	$Parsedown = new Parsedown();
 
-	echo $Parsedown->text(file_get_contents('https://github.com/zvakanaka/php-class/raw/master/README.md'));
+	echo $Parsedown->text(file_get_contents('https://github.com/zvakanaka/photo-gal/raw/master/README.md'));
 ?>
 </article>
 </main>
